@@ -73,12 +73,12 @@ class Add extends React.Component {
 
           <Form.Group controlId="text">
             <Form.Label>Text</Form.Label>
-            <Form.Control name="text" type="text" value={this.state.text} placeholder="text" onChange={(e) => this.handleChange(e)} />
+            <Form.Control name="text" type="text" value={this.state.text} placeholder="comment" onChange={(e) => this.handleChange(e)} />
           </Form.Group>
 
           <Form.Group controlId="img">
             <Form.Label>Image Address</Form.Label>
-            <Form.Control name="img" type="text" value={this.state.img} placeholder="insert url for image" onChange={(e) => this.handleChange(e)} />
+            <Form.Control name="img" type="text" value={this.state.img} placeholder="input image url" onChange={(e) => this.handleChange(e)} />
           </Form.Group>
 
           <Button variant="primary" type="submit">
