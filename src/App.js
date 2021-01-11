@@ -58,7 +58,7 @@ class App extends React.Component {
       <Router>
 
         <Navbar bg="primary" expand="md">
-          <Navbar.Brand>Social App™</Navbar.Brand>
+          <Navbar.Brand>FaceAche™</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
