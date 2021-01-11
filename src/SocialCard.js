@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image'
 import Likes from './Likes'
 
-class Scard extends React.Component {
+class SocialCard extends React.Component {
 
   render() {
     return (
@@ -21,4 +21,4 @@ class Scard extends React.Component {
   }
 }
 
-export default Scard;
+export default SocialCard;
